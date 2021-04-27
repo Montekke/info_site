@@ -341,7 +341,7 @@
   }
 }
 
-@media (max-width:375px) {
+@media (max-width:425px) {
   footer .imaga3 img {
     width: 374px;
   }
@@ -353,6 +353,8 @@
   .info h3 {
     font-size: 9px;
     margin-bottom: 0;
+    line-height: 18px;
+
   }
 
   .section-1 h1 {
