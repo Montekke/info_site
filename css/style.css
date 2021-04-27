@@ -1,0 +1,43 @@
+html body {
+    font-family: 'Montserrat';
+}
+body p,
+body h2,
+body h3 {
+    margin: 0;
+    color: #434343;
+}
+header h3 {
+    font-size: 13px;
+}
+.section-1 h1 {
+    font-size: 40px;
+    font-family: 'MontserratBold';
+    color: #0099FF;
+    margin-bottom: 23px;
+}
+header, .section-1 {
+    background-color:#ECECEC ;
+}
+.palka {
+    margin: 0 22px;
+}
+.list h3 {
+    margin-left: 25px;
+}
+.info {
+ margin-right: 255px;
+}
+.block1 {
+    padding-top: 15px;
+    padding-bottom: 53px;
+}
+.download {
+    margin-top: 70px;
+}
+.download img {
+    margin-bottom: 23px;
+}
+.left, .right {
+    width: 50%;
+}
