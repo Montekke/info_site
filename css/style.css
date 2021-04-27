@@ -1,43 +1,313 @@
 html body {
     font-family: 'Montserrat';
 }
+
 body p,
 body h2,
 body h3 {
     margin: 0;
     color: #434343;
 }
+
+body li {
+    list-style: none;
+    margin-bottom: 23px;
+}
+
+body ul {
+    margin: 0;
+    padding: 0;
+}
+
 header h3 {
     font-size: 13px;
 }
+
 .section-1 h1 {
     font-size: 40px;
     font-family: 'MontserratBold';
     color: #0099FF;
     margin-bottom: 23px;
 }
-header, .section-1 {
-    background-color:#ECECEC ;
+
+header,
+.section-1 {
+    background-color: #ECECEC;
 }
+
 .palka {
     margin: 0 22px;
 }
+
 .list h3 {
     margin-left: 25px;
 }
+
 .info {
- margin-right: 255px;
+    margin-right: 255px;
 }
+
 .block1 {
     padding-top: 15px;
     padding-bottom: 53px;
 }
+
 .download {
     margin-top: 70px;
 }
+
 .download img {
     margin-bottom: 23px;
 }
-.left, .right {
+
+.left,
+.right {
     width: 50%;
+}
+
+body h2 {
+    font-size: 36px;
+    color: #434343;
+    line-height: 48px;
+    margin-bottom: 20px;
+    font-family: 'MontserratLight';
+}
+
+body p,
+body h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+header h3 {
+    margin-bottom: 0;
+}
+
+.core1 {
+    width: 550px
+}
+
+.div_header {
+    width: 504px;
+}
+
+.div1 {
+    padding: 79px 0;
+}
+
+.section-3 {
+    background-image: url(../img/bg_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.core2 {
+    width: 647px;
+}
+
+.div2 {
+    padding-top: 45px;
+}
+
+.core3 {
+    width: 588px;
+}
+
+.div3 {
+    padding: 80px 0;
+}
+
+.core4 {
+    width: 589px;
+}
+
+.core4 p {
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.section-5 {
+    background-image: url(../img/bg_5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div4 {
+    padding-top: 41px;
+}
+
+.section-6 h2,
+.section-7 h2 {
+    text-align: center;
+    padding-top: 75px;
+    font-family: 'MontserratBold';
+    font-size: 34px;
+    margin-bottom: 65px;
+}
+
+.section-6 p {
+    text-align: center;
+}
+
+footer {
+    background-color: #ECECEC;
+}
+
+.footer_div {
+    padding: 32px 0;
+}
+
+.core5 img {
+    margin-bottom: 23px;
+}
+
+.palki {
+    position: relative;
+    bottom: 150px;
+    width: 44%;
+    height: 1px;
+    border: 1px solid #adadad73;
+}
+
+.block2 {
+    width: 292px;
+}
+
+.div5 {
+    padding: 0px 200px;
+}
+
+.visible-m {
+    display: none;
+}
+
+.visible-s {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-for3 {
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+
+.slider-for3 .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+@media (min-width:1600px) {
+    .slider-for3 .slick-list {
+        padding: 0 !important
+    }
+}
+
+.slider-for3 .swiper-slide {
+    width: 829px;
+    min-width: 829px;
+    margin-right: 60px;
+    height: auto;
+    position: relative
+}
+
+.slider-for3 .slide {
+    width: 100%;
+    height: 553px;
+    padding: 0 120px;
+    background-repeat: no-repeat
+}
+
+.slider-for3 .slick-current .swiper-button-next,
+.slider-for3 .slick-current .swiper-button-prev {
+    opacity: 1;
+    z-index: 1;
+    transition: .2s
+}
+
+.swiper-button-next {
+    width: 99px;
+    height: 99px;
+    border: 8px solid #fff;
+    background-color: #0099FF;
+    border-radius: 100%;
+    right: -44px;
+    position: absolute;
+    top: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.swiper-button-prev {
+    width: 99px;
+    height: 99px;
+    border: 8px solid #fff;
+    background-color: #0099FF;
+    border-radius: 100%;
+    left: -44px;
+    position: absolute;
+    top: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    opacity: 0;
+    z-index: -1;
+    transition: .2s;
+    top: 236px
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    content: '';
+    background-image: url(../img/arrow3.svg);
+    width: 29px;
+    height: 52px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.swiper-button-next:after {
+    content: '';
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH"
+}
+
+.slider-for3 .slide div {
+    position: absolute;
+    bottom: 61px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: 'TTInterfacesBold';
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40px;
+    left: 0
 }

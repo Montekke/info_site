@@ -1,0 +1,389 @@
+@media (max-width:1258px) {
+  .imaga img {
+    width: 542px;
+  }
+
+  .section-1 {
+    overflow: hidden;
+  }
+}
+
+@media (max-width:1199px) {
+  .info {
+    margin-right: 90px;
+  }
+
+  .core2 {
+    width: 510px;
+  }
+
+  .core3 {
+    width: 425px;
+  }
+
+  .imaga2 {
+    width: 460px;
+  }
+
+  .palki {
+    position: relative;
+    bottom: 150px;
+    width: 41%;
+    height: 1px;
+    border: 1px solid #adadad73;
+  }
+}
+
+@media (max-width:1024px) {
+  footer .download {
+    margin-left: -15px;
+  }
+}
+
+@media (max-width:991px) {
+
+  .section-1 .top,
+  .section-2 .div1,
+  .section-5 .div4,
+  .section-6 .core5,
+  footer .footer_div {
+    flex-direction: column !important;
+  }
+
+  .section-3 .div2,
+  .section-4 .div3 {
+    flex-direction: column-reverse !important;
+  }
+
+  .imaga img,
+  .imaga2 img {
+    width: auto;
+  }
+
+  .div_header,
+  .core1,
+  .core2,
+  .core3,
+  .core4 {
+    width: auto;
+  }
+
+  .section-6 .div5 {
+    display: none !important;
+  }
+
+  .section-6 .core5 {
+    align-items: center !important;
+  }
+
+  .section-6 p {
+    margin-bottom: 60px;
+  }
+
+  .list img {
+    margin-right: -20px;
+  }
+
+  .visible-m {
+    display: block;
+  }
+
+  .hidden-m {
+    display: none;
+  }
+
+  .download {
+    margin-top: 0px;
+  }
+
+  .palka {
+    margin: 0 14px;
+  }
+
+  header h3 {
+    font-size: 13px;
+  }
+
+  .info {
+    margin-right: 24px;
+  }
+
+  .slider-for3 .swiper-slide {
+    width: 529px;
+    min-width: 529px;
+    margin-right: 60px;
+    height: auto;
+    position: relative
+  }
+
+  footer .download {
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width:767px) {
+  header .block1 {
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+
+  .list {
+    margin-top: 20px;
+  }
+
+  .section-1 .imaga img,
+  .section-2 {
+    width: 100%;
+  }
+
+  .hidden-s {
+    display: none;
+  }
+
+  .visible-s {
+    display: block;
+  }
+
+  .list {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  body h2 {
+    font-size: 33px;
+    color: #434343;
+    line-height: 48px;
+    margin-bottom: 20px;
+    font-family: 'MontserratLight';
+  }
+
+  .slider-for3 .slide {
+    width: 100%;
+    height: 560px;
+    padding: 0 120px;
+    background-repeat: no-repeat;
+  }
+
+  .slider-for3 .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .slider-for3 .swiper-slide {
+    width: 520px;
+    min-width: 520px;
+    margin-right: 15px;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+  }
+
+  .swiper-button-next {
+    width: 99px;
+    height: 99px;
+    border: 8px solid #fff;
+    background-color: #0099FF;
+    border-radius: 100%;
+    right: -20px;
+    position: absolute;
+    top: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .swiper-button-prev {
+    width: 99px;
+    height: 99px;
+    border: 8px solid #fff;
+    background-color: #0099FF;
+    border-radius: 100%;
+    left: -20px;
+    position: absolute;
+    top: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  footer {
+    overflow: hidden;
+  }
+}
+
+@media (max-width:575px) {
+  footer .imaga3 img {
+    width: 453px;
+  }
+
+  header h3 {
+    font-size: 10px;
+  }
+
+  .div1 {
+    padding-top: 30px;
+  }
+
+  body h2 {
+    font-size: 26px;
+    color: #434343;
+    line-height: 48px;
+    margin-bottom: 20px;
+    font-family: 'MontserratLight';
+  }
+
+  body p,
+  body h3 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .div3 {
+    padding: 40px 0;
+  }
+
+  .div4 {
+    padding-top: 0px;
+  }
+
+  .section-6 h2,
+  .section-7 h2 {
+    text-align: center;
+    font-family: 'MontserratBold';
+    font-size: 25px;
+    margin-bottom: 64px;
+  }
+
+  .section-7 h2 {
+    padding-top: 8px;
+  }
+
+  .slider-for3 .swiper-slide {
+    width: 332px;
+    min-width: 332px;
+    margin-right: 15px;
+    height: auto;
+    position: relative;
+    margin-left: 15px;
+  }
+
+  .slider-for3 .slide {
+    width: 100%;
+    height: 360px;
+    padding: 0 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    content: '';
+    background-image: url(../img/arrow3.svg);
+    width: 20px;
+    background-size: 15px;
+    height: 36px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .swiper-button-prev {
+    width: 65px;
+    height: 65px;
+    border: 8px solid #fff;
+    background-color: #0099FF;
+    border-radius: 100%;
+    left: -20px;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .swiper-button-next {
+    width: 65px;
+    height: 65px;
+    border: 8px solid #fff;
+    background-color: #0099FF;
+    border-radius: 100%;
+    right: -20px;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .div1 img,
+  .div3 img {
+    width: 100%;
+  }
+
+  .imaga2 {
+    width: 100%;
+  }
+
+  .info h3 {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width:375px) {
+  footer .imaga3 img {
+    width: 374px;
+  }
+
+  .imaga4 img {
+    width: 125px;
+  }
+
+  .info h3 {
+    font-size: 9px;
+    margin-bottom: 0;
+  }
+
+  .section-1 h1 {
+    font-size: 34px;
+    font-family: 'MontserratBold';
+    color: #0099FF;
+    margin-bottom: 23px;
+  }
+
+  body h2 {
+    font-size: 22px;
+    color: #434343;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-family: 'MontserratLight';
+  }
+
+  body p,
+  body h3 {
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .list h3 {
+    margin-bottom: 0;
+  }
+
+  .div2 img,
+  .div4 img {
+    width: 100%;
+  }
+
+}
